@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seeking Webpage</title>
+    <style>
+        #submit{
+            background-color:green;
+            border-radius: 3px;
+            color : white;
+            height:auto;
+        }
+        body{
+            background-color:rgb(240, 237, 233);
+        }
+        input{
+            background-color: white;
+            height:17px;
+        }
+        legend{
+            font-family:'Courier New', Courier, monospace;
+        }
+        button{
+            color:white;
+            background-color: green;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <fieldset>
+            <legend><b>Personal Portfolio</b></legend>
+            <form>
+                <label for="name"> FullName: </label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                <br>
+                <br>
+                <label for="age">Age: </label>
+                <input type="number" id="age" name="age" placeholder="Enter Your Age" max="70" required>
+                <br>
+                <br>
+                <label for="mobile">Mobile No:</label>
+                <input type="tel" name="mobile" id="mobile" placeholder="Enter your Mobile number" required>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Gender</legend>
+                
+                    <label for="gender">Male:</label>
+                    <input type="radio" name="gender" id="gender" value="Male">
+                    <label for="gender">Female:</label>
+                    <input type="radio" name="gender" id="gender" value="Female" required>
+                </fieldset>
+                <br>
+                <label for="graduation">Graduatoion type:</label>
+                <select name="graduation" id="graduation">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
+                <br>
+                <br>
+                <label for="mail">Email:</label>
+                <input type="email" name="mail" id="mail" placeholder="Enter Your Email" required>
+                <br>
+                <h4>Select which job role you applying for?</h4>
+                <select name="role" id="role">
+                    <option value="webdeveloper">webdeveloper</option>
+                    <option value="machinelearning">machinelearning</option>
+                    <option value="dsa">DSA</option>
+                    <option value="AI">ArtificalIntelligence</option>
+                </select><br>
+                <h4>you previously worked for?</h4>
+                <select name="previouswork" id="previouswork">
+                    <option value="dataentry">dataentry</option>
+                    <option value="internship">Internship</option>
+                    <option value="firstJob">FirstJob</option>
+                </select><br><br>
+    
+                <br>
+                <fieldset>
+                    <legend>Skills:</legend>
+                    <label for="skills">HTML:</label>
+                    <input type="checkbox" name="skills" id="skills" value="HTML" >
+                    <label for="skills">CSS:</label>
+                    <input type="checkbox" name="skills" id="skills" value="CSS" >
+                    <label for="skills">JS:</label>
+                    <input type="checkbox" name="skills" id="skills" value="JS" >
+                    <label for="skills">PHP:</label>
+                    <input type="checkbox" name="skills" id="skills" value="PHP">
+
+                    <label for="skills">PYTHON:</label>
+                    <input type="checkbox" name="skills" id="skills" value="PYTHON">
+                    <label for="skills">PANDAS:</label>
+                    <input type="checkbox" name="skills" id="skills" value="Pandas">
+                    <label for="skills">MATPLOTLIB:</label>
+                    <input type="checkbox" name="skills" id="skills" value="MATPLOLIB">
+                    <label for="skills">MACHINE LEARNING:</label>
+                    <input type="checkbox" name="skills" id="skills" value="MACHINE LEARNING">
+                    <label for="skills">DEEP LEARNING:</label>
+                    <input type="checkbox" name="skills" id="skills" value="DEEP LEARNING">
+                    <label for="skills">SQL:</label>
+                    <input type="checkbox" name="skills" id="skills" value="SQL">                        
+                 </fieldset>
+                 <br>
+                 <label for="profile">LinkedIn Link:</label>
+                 <input type="url" name="profile" id="profile" required>
+                 <br>
+                 <br>
+                 <input type="submit" id="submit">
+                 <input type = "reset" id ="submit">
+                 <button style="margin-left: 93%; "> Next</button>
+            </form>
+        </fieldset>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+    
+        <legend>About</legend>
+        <h1 style="text-align: center; text-decoration: underline;"> Skills And Experience </h1>
+        <br>
+
+        <p style="margin-left:3%"> 
+            My name is : <strong> B.N.Raja Mohan Reddy </strong>.
+        <p> Skills that I am Mainly focussing on 
+            <li>
+                <ol>Python</ol>
+                <ol> SQL</ol>
+                <ol> Machine Learning</ol>
+                <ol> Deep Learning </ol>
+                <ol> Exploratory Data Analysis</ol>
+                <ol> NLP </ol>
+                <ol> AI</ol>
+                <ol> Excel</ol>
+                <ol> Power Bi </ol>
+            </li>
+            
+        </p>
+        <p> I think I might have Good Communication Skills. </p>
+        <p> I am  good at Problem Solving.</p>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Projects:</legend>
+        <a href="sales.pdf">Sales Project Analysis</a>
+        <br>
+        <br>
+        <a href="projectbi.pbix"> Data Science Project</a>  
+        
+        
+    
+    
+</body>
+</html>
